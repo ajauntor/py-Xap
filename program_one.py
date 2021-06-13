@@ -21,9 +21,20 @@ def scope_test():
 scope_test()
 print("In global scope:", spam)
 
+# After local assignment: test spam
+# After nonlocal assignment: nonlocal spam
+# After global assignment: nonlocal spam
+# In global scope: global spam
 
-#python string
-print("Auntor");
+class MyClass:
+    """A simple example class"""
+    i = 12345
 
-#python number
-print("AJ Auntor \n 014008800XX");
+    def f(self):
+        return 'hello world'
+
+# #python string
+# print("Auntor");
+
+# #python number
+# print("AJ Auntor \n 014008800XX");
