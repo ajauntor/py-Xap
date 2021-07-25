@@ -2,4 +2,4 @@
 print("Auntor");
 
 #python number
-print(100)
+print("AJ Auntor \n 014008800XX");
